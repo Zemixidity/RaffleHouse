@@ -16,7 +16,7 @@ contract MyNFT is ERC721URIStorage {
   function mintNFT() public {
     uint256 newItemId = _tokenIds.current();
     _safeMint(msg.sender, newItemId);
-    _setTokenURI(newItemId, "https://jsonkeeper.com/b/RUUS");
+    _setTokenURI(newItemId, "https://jsonkeeper.com/b/FHY2");
     _tokenIds.increment();
     console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
   }
